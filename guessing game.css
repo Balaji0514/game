@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+body {
+background-image: url(https://img.freepik.com/free-photo/detailed-red-grunge-background-with-scratches-stains_1048-6467.jpg?size=626&ext=jpg&ga=GA1.2.2054427605.1691123378&semt=ais);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family:Georgia, 'Times New Roman', Times, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    
+    text-shadow: black,5px,3px;
+}
+.container h3{
+    font-family: 'Roboto Slab', serif;
+    color:red;
+    font-size: 30px;
+}
+.container #start{
+    width:150px;
+    height: 50px;
+    border-radius: 30px;
+   
+    color: red;
+    background-color: black;
+   margin-left: -70px;
+    position: absolute;
+}
+#start:hover{
+    background:linear-gradient(to right,red,black);
+    border: 2px solid black;
+    border-radius: 100px;
+    transition: ease-out 0.3s;
+}
+#liv{
+    font-size: xx-large;
+}
+#startBox{
+   
+    margin-left: -100px;
+    position: absolute;
+    color: black;
+    background: linear-gradient(to right,red,black);
+    width: 200px;
+    height: 30px;
+}
+h4{
+    position: relative;
+}
